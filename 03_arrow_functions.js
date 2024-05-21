@@ -17,6 +17,12 @@ function sum(x, y, z) {
 	return x + y + z;
 }
 
+// default function ile aynı isimde arrow function tanımı yapamadığımız örneklendirmiş olduk.
+
+// const sum = (x, y, z, t) => {
+// 	return x + y + z + t;
+// };
+
 // default function yazdığımızda aynı isimde başka function yazılabilir ve js function overload olmadığından en son tanımlı function imzasına göre kod çalışır. yani diğer function ezilir.
 
 const result1 = sum(10, 30); // 40, ISNAN
